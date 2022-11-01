@@ -2,14 +2,9 @@ name: Code checks
 
 on:
   push:
-    branches: [main]
-    paths:
-      - 'hw1/**'
+    branches: [homework1]
   pull_request:
-    branches: [main]
-    paths:
-      - 'hw1/**'
-
+    branches: [homework1]
 jobs:
   build:
     runs-on: ubuntu-latest
