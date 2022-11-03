@@ -21,7 +21,18 @@ jobs:
 #      - name: Run flake8 train pipe
 #        run: flake8 ./ml_project/train_pipeline.py
       - name: Run flake8 classes
-        run: flake8 ./ml_project/classes/*
+        run: |
+          flake8 ./ml_project/classes/Exporting.py --count --select=E9,F63,F7,F82 --show-source --statistics
+          flake8 ./ml_project/classes/Exporting.py --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+          flake8 ./ml_project/classes/Train.py --count --select=E9,F63,F7,F82 --show-source --statistics
+          flake8 ./ml_project/classes/Train.py --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+          flake8 ./ml_project/classes/Transform.py --count --select=E9,F63,F7,F82 --show-source --statistics
+          flake8 ./ml_project/classes/Transform.py --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+          flake8 ./ml_project/classes/Preprocess.py --count --select=E9,F63,F7,F82 --show-source --statistics
+          flake8 ./ml_project/classes/Preprocess.py --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+
       - name: Run flake8 cfg
-        run: flake8 ./ml_project/enities/cfg.py
+        run: |
+          flake8 ./ml_project/enities/cfg.py --count --select=E9,F63,F7,F82 --show-source --statistics
+          flake8 ./ml_project/enities/cfg.py --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
 
