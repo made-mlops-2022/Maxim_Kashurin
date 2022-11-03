@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22890bbc-20e5-4279-b841-6e0eb4246ec8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/homework1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/homework1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/Export_info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/Export_info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/Prepoc_info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/Prepoc_info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/Train_info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/Train_info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/Transform_info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/Transform_info.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,16 +51,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/maxim/Технопарк/MLOps/homework1&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/maxim/Технопарк/MLOps/homework1",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PythonContentEntriesConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/logs" />
@@ -64,15 +71,15 @@
   </component>
   <component name="RunManager" selected="Python.train_pipeline">
     <configuration name="train_pipeline" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="hw1" />
+      <module name="homework1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="/usr/bin/python3.10" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ml_project" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -132,10 +139,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.train_pipeline" />
         <item itemvalue="Python tests.Python tests for test_makedataset.test_train_model" />
         <item itemvalue="Python tests.Python tests for test_makedataset.test_split_dataset" />
         <item itemvalue="Python tests.Python tests for test_makedataset.test_load_dataset" />
-        <item itemvalue="Python.train_pipeline" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +166,9 @@
       <workItem from="1667295508319" duration="9810000" />
       <workItem from="1667326631974" duration="9064000" />
       <workItem from="1667338716795" duration="1990000" />
-      <workItem from="1667464691645" duration="391000" />
+      <workItem from="1667464691645" duration="1336000" />
+      <workItem from="1667466035660" duration="507000" />
+      <workItem from="1667466577463" duration="924000" />
     </task>
     <servers />
   </component>
@@ -179,6 +188,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/hw1$.coverage" NAME=" Coverage Results" MODIFIED="1667332601026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/homework1$train_pipeline.coverage" NAME="train_pipeline Coverage Results" MODIFIED="1667466262371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ml_project" />
     <SUITE FILE_PATH="coverage/hw1$te.coverage" NAME="te Coverage Results" MODIFIED="1666968908232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testt" />
     <SUITE FILE_PATH="coverage/hw1$train_pipeline.coverage" NAME="train_pipeline Coverage Results" MODIFIED="1666975238524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ml_project" />
   </component>
