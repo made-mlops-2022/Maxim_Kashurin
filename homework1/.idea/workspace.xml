@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22890bbc-20e5-4279-b841-6e0eb4246ec8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catboost_info/catboost_training.json" beforeDir="false" afterPath="$PROJECT_DIR$/catboost_info/catboost_training.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catboost_info/learn/events.out.tfevents" beforeDir="false" afterPath="$PROJECT_DIR$/catboost_info/learn/events.out.tfevents" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catboost_info/time_left.tsv" beforeDir="false" afterPath="$PROJECT_DIR$/catboost_info/time_left.tsv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/Export_info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/Export_info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/Prepoc_info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/Prepoc_info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/Train_info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/Train_info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/Transform_info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/Transform_info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/CatBoostClassifier/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/models/CatBoostClassifier/model.pkl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/Research ML model Heart Disease Cleveland UCI.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Research ML model Heart Disease Cleveland UCI.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-    </list>
+    <list default="true" id="22890bbc-20e5-4279-b841-6e0eb4246ec8" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +30,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
