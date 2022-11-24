@@ -1,13 +1,3 @@
-2022-11-01 19:24:16.750 | INFO     | __main__:train_pipeline_command:35 - Запустили код с параметрами: model_path :configs/models.yaml cfg_path:configs/CatBoostConfig.yaml name_of_model CatBoostClassifier 
-2022-11-01 19:24:16.764 | INFO     | ml_project.classes.Preprocess:__init__:38 - Данные из датасета    age  sex  cp  trestbps  chol  fbs  restecg  thalach  exang  oldpeak  slope  ca  thal  condition
-0   69    1   0       160   234    1        2      131      0      0.1      1   1     0          0
-1   69    0   0       140   239    0        0      151      0      1.8      0   2     0          0
-2   66    0   0       150   226    0        0      114      0      2.6      2   0     0          0
-3   65    1   0       138   282    1        2      174      0      1.4      1   1     0          1
-4   64    1   0       110   211    0        2      144      1      1.8      1   0     0          0
-2022-11-01 19:24:16.765 | INFO     | ml_project.classes.Preprocess:__init__:43 - целевая переменная [0 1]
-2022-11-01 19:24:16.766 | INFO     | ml_project.classes.Preprocess:__init__:46 - кол-во столбцов после дропа трейна :13
-2022-11-01 19:24:16.766 | INFO     | ml_project.classes.Preprocess:__init__:48 - кол-во столбцов после дропа теста :13
 2022-11-01 19:30:27.385 | INFO     | __main__:train_pipeline_command:35 - Запустили код с параметрами: model_path :configs/models.yaml cfg_path:configs/CatBoostConfig.yaml name_of_model CatBoostClassifier 
 2022-11-01 19:30:27.400 | INFO     | ml_project.classes.Preprocess:__init__:38 - Данные из датасета    age  sex  cp  trestbps  chol  fbs  restecg  thalach  exang  oldpeak  slope  ca  thal  condition
 0   69    1   0       160   234    1        2      131      0      0.1      1   1     0          0
@@ -535,3 +525,163 @@ Name: condition, dtype: int64
 2022-11-03 12:18:00.127 | INFO     | ml_project.classes.Exporting:__init__:25 - Записали метрики в файл  
 2022-11-03 12:18:00.128 | INFO     | ml_project.classes.Exporting:__init__:31 - Сериализовали модельку в банку 
 2022-11-03 12:18:00.128 | INFO     | ml_project.classes.Exporting:__init__:33 - Путь до модельки :models/DecisionTreeClassifier/model.pkl
+2022-11-22 17:29:53.342 | INFO     | __main__:train_pipeline_command:34 - Запустили код с параметрами: model_path :configs/models.yaml cfg_path:configs/CatBoostConfig.yaml name_of_model CatBoostClassifier 
+2022-11-22 17:29:53.359 | INFO     | ml_project.classes.Preprocess:__init__:38 - Данные из датасета    age  sex  cp  trestbps  chol  fbs  restecg  thalach  exang  oldpeak  slope  ca  thal  condition
+0   69    1   0       160   234    1        2      131      0      0.1      1   1     0          0
+1   69    0   0       140   239    0        0      151      0      1.8      0   2     0          0
+2   66    0   0       150   226    0        0      114      0      2.6      2   0     0          0
+3   65    1   0       138   282    1        2      174      0      1.4      1   1     0          1
+4   64    1   0       110   211    0        2      144      1      1.8      1   0     0          0
+2022-11-22 17:29:53.360 | INFO     | ml_project.classes.Preprocess:__init__:43 - целевая переменная [0 1]
+2022-11-22 17:29:53.361 | INFO     | ml_project.classes.Preprocess:__init__:46 - кол-во столбцов после дропа трейна :13
+2022-11-22 17:29:53.362 | INFO     | ml_project.classes.Preprocess:__init__:48 - кол-во столбцов после дропа теста :13
+2022-11-22 17:29:53.368 | INFO     | ml_project.classes.Transform:__init__:47 - Данные до преобразования      age  sex  cp  trestbps  chol  fbs  restecg  thalach  exang  oldpeak  slope  ca  thal
+43    54    1   1       108   309    0        0      156      0      0.0      0   0     2
+98    58    1   2       112   230    0        2      165      0      2.5      1   1     2
+255   52    1   3       128   255    0        0      161      1      0.0      0   1     2
+24    71    0   1       160   302    0        0      162      0      0.4      0   2     0
+220   58    1   3       150   270    0        2      111      1      0.8      0   0     2
+2022-11-22 17:29:53.374 | INFO     | ml_project.classes.Transform:__init__:50 - Данные после преобразования [[-0.03318211  0.69372185 -1.25573945 ... -0.9964785  -0.72415243
+   1.18191338]
+ [ 0.42271127  0.69372185 -0.21514417 ...  0.61008888  0.34849836
+   1.18191338]
+ [-0.2611288   0.69372185  0.8254511  ... -0.9964785   0.34849836
+   1.18191338]
+ ...
+ [-0.71702218  0.69372185 -0.21514417 ... -0.9964785   1.42114914
+  -0.90848566]
+ [-0.03318211  0.69372185  0.8254511  ... -0.9964785  -0.72415243
+  -0.90848566]
+ [-1.74278228 -1.44149994 -0.21514417 ... -0.9964785  -0.72415243
+  -0.90848566]]
+2022-11-22 17:29:53.474 | INFO     | ml_project.classes.Train:__init__:69 - Обучили модель
+2022-11-22 17:29:53.475 | INFO     | ml_project.classes.Train:__init__:71 - Сделали пайплайн
+2022-11-22 17:29:53.478 | INFO     | ml_project.classes.Train:__init__:73 - Реальные метки :[0 1 0 0 1 0 1 1 1 1 0 0 1 0 0 1 1 1 0 0 0 1 0 1 0 1 0 0 1 0 0 0 0 1 1 1 1
+ 1 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 1 0 0 0 0]
+2022-11-22 17:29:53.478 | INFO     | ml_project.classes.Train:__init__:74 - Предсказания :[0 0 0 0 1 0 1 1 1 1 1 0 1 1 0 1 1 1 0 1 0 0 0 1 1 0 0 0 1 0 0 0 0 1 1 1 1
+ 0 0 0 0 0 0 0 0 0 1 0 0 1 0 1 0 0 0 1 0 0 0 1]
+2022-11-22 17:29:53.481 | INFO     | ml_project.classes.Train:__init__:76 - Метрики :{'Accuracy': 0.7833333333333333, 'Precision': 0.7083333333333334, 'Recall': 0.7391304347826086, 'F1 Score': 0.723404255319149}
+2022-11-22 17:29:53.481 | INFO     | ml_project.classes.Exporting:__init__:25 - Записали метрики в файл  
+2022-11-22 17:29:53.482 | INFO     | ml_project.classes.Exporting:__init__:31 - Сериализовали модельку в банку 
+2022-11-22 17:29:53.482 | INFO     | ml_project.classes.Exporting:__init__:33 - Путь до модельки :models/CatBoostClassifier/model.pkl
+2022-11-22 17:30:14.685 | INFO     | __main__:train_pipeline_command:34 - Запустили код с параметрами: model_path :configs/models.yaml cfg_path:configs/DecisionTreeConfig.yaml name_of_model DecisionTreeClassifier 
+2022-11-22 17:30:14.701 | INFO     | ml_project.classes.Preprocess:__init__:38 - Данные из датасета    age  sex  cp  trestbps  chol  fbs  restecg  thalach  exang  oldpeak  slope  ca  thal  condition
+0   69    1   0       160   234    1        2      131      0      0.1      1   1     0          0
+1   69    0   0       140   239    0        0      151      0      1.8      0   2     0          0
+2   66    0   0       150   226    0        0      114      0      2.6      2   0     0          0
+3   65    1   0       138   282    1        2      174      0      1.4      1   1     0          1
+4   64    1   0       110   211    0        2      144      1      1.8      1   0     0          0
+2022-11-22 17:30:14.702 | INFO     | ml_project.classes.Preprocess:__init__:43 - целевая переменная [1 0]
+2022-11-22 17:30:14.703 | INFO     | ml_project.classes.Preprocess:__init__:46 - кол-во столбцов после дропа трейна :13
+2022-11-22 17:30:14.703 | INFO     | ml_project.classes.Preprocess:__init__:48 - кол-во столбцов после дропа теста :13
+2022-11-22 17:30:14.711 | INFO     | ml_project.classes.Transform:__init__:47 - Данные до преобразования      age  sex  cp  trestbps  chol  fbs  restecg  thalach  exang  oldpeak  slope  ca  thal
+19    42    1   0       148   244    0        2      178      0      0.8      0   2     0
+258   52    1   3       125   212    0        0      168      0      1.0      0   2     2
+82    66    0   2       146   278    0        2      152      0      0.0      1   1     0
+66    41    1   1       110   235    0        0      153      0      0.0      0   0     0
+203   60    1   3       117   230    1        0      160      1      1.4      0   2     2
+2022-11-22 17:30:14.716 | INFO     | ml_project.classes.Transform:__init__:50 - Данные после преобразования [[-1.51449071  0.73029674 -2.30250178 ... -1.03321762  1.38807398
+  -0.87339097]
+ [-0.35851882  0.73029674  0.83314209 ... -1.03321762  1.38807398
+   1.2046772 ]
+ [ 1.25984183 -1.36930639 -0.21207253 ...  0.56287228  0.31992783
+  -0.87339097]
+ ...
+ [ 0.68185588  0.73029674  0.83314209 ... -1.03321762  0.31992783
+   1.2046772 ]
+ [ 1.02864745  0.73029674  0.83314209 ...  2.15896219  0.31992783
+  -0.87339097]
+ [-0.47411601 -1.36930639 -0.21207253 ... -1.03321762 -0.74821832
+  -0.87339097]]
+2022-11-22 17:30:14.725 | INFO     | ml_project.classes.Train:__init__:69 - Обучили модель
+2022-11-22 17:30:14.726 | INFO     | ml_project.classes.Train:__init__:71 - Сделали пайплайн
+2022-11-22 17:30:14.729 | INFO     | ml_project.classes.Train:__init__:73 - Реальные метки :[1 0 0 0 0 1 1 0 1 1 0 0 0 0 1 0 1 0 0 0 1 1 0 1 0 0 1 1 0 0 0 1 0 1 1 0 0
+ 0 1 1 0 1 1 0 0 0 1 1 0 1 1 1 1 1 0 0 1 0 0 0 0 0 1 0 0 1 0 1 1 0 0 0 1 0
+ 0 1 0 1 1 0 0 1 1 1 0 1 0 0 0 0]
+2022-11-22 17:30:14.729 | INFO     | ml_project.classes.Train:__init__:74 - Предсказания :[1 0 0 1 0 0 1 0 1 1 0 0 0 1 1 0 1 1 0 0 1 1 0 0 0 0 1 1 0 0 0 1 0 1 1 0 1
+ 0 1 1 0 1 0 1 0 0 1 1 1 1 0 1 0 0 0 1 1 0 0 0 0 0 1 0 0 0 0 1 0 0 0 1 1 0
+ 0 0 0 1 1 1 0 1 0 1 0 0 0 0 0 0]
+2022-11-22 17:30:14.732 | INFO     | ml_project.classes.Train:__init__:76 - Метрики :{'Accuracy': 0.7777777777777778, 'Precision': 0.7567567567567568, 'Recall': 0.717948717948718, 'F1 Score': 0.736842105263158}
+2022-11-22 17:30:14.732 | INFO     | ml_project.classes.Exporting:__init__:25 - Записали метрики в файл  
+2022-11-22 17:30:14.732 | INFO     | ml_project.classes.Exporting:__init__:31 - Сериализовали модельку в банку 
+2022-11-22 17:30:14.733 | INFO     | ml_project.classes.Exporting:__init__:33 - Путь до модельки :models/DecisionTreeClassifier/model.pkl
+2022-11-22 18:26:45.423 | INFO     | __main__:train_pipeline_command:34 - Запустили код с параметрами: model_path :configs/models.yaml cfg_path:configs/DecisionTreeConfig.yaml name_of_model DecisionTreeClassifier 
+2022-11-22 18:26:45.438 | INFO     | ml_project.classes.Preprocess:__init__:38 - Данные из датасета    age  sex  cp  trestbps  chol  fbs  restecg  thalach  exang  oldpeak  slope  ca  thal  condition
+0   69    1   0       160   234    1        2      131      0      0.1      1   1     0          0
+1   69    0   0       140   239    0        0      151      0      1.8      0   2     0          0
+2   66    0   0       150   226    0        0      114      0      2.6      2   0     0          0
+3   65    1   0       138   282    1        2      174      0      1.4      1   1     0          1
+4   64    1   0       110   211    0        2      144      1      1.8      1   0     0          0
+2022-11-22 18:26:45.439 | INFO     | ml_project.classes.Preprocess:__init__:43 - целевая переменная [1 0]
+2022-11-22 18:26:45.440 | INFO     | ml_project.classes.Preprocess:__init__:46 - кол-во столбцов после дропа трейна :13
+2022-11-22 18:26:45.441 | INFO     | ml_project.classes.Preprocess:__init__:48 - кол-во столбцов после дропа теста :13
+2022-11-22 18:26:45.447 | INFO     | ml_project.classes.Transform:__init__:47 - Данные до преобразования      age  sex  cp  trestbps  chol  fbs  restecg  thalach  exang  oldpeak  slope  ca  thal
+19    42    1   0       148   244    0        2      178      0      0.8      0   2     0
+258   52    1   3       125   212    0        0      168      0      1.0      0   2     2
+82    66    0   2       146   278    0        2      152      0      0.0      1   1     0
+66    41    1   1       110   235    0        0      153      0      0.0      0   0     0
+203   60    1   3       117   230    1        0      160      1      1.4      0   2     2
+2022-11-22 18:26:45.453 | INFO     | ml_project.classes.Transform:__init__:50 - Данные после преобразования [[-1.51449071  0.73029674 -2.30250178 ... -1.03321762  1.38807398
+  -0.87339097]
+ [-0.35851882  0.73029674  0.83314209 ... -1.03321762  1.38807398
+   1.2046772 ]
+ [ 1.25984183 -1.36930639 -0.21207253 ...  0.56287228  0.31992783
+  -0.87339097]
+ ...
+ [ 0.68185588  0.73029674  0.83314209 ... -1.03321762  0.31992783
+   1.2046772 ]
+ [ 1.02864745  0.73029674  0.83314209 ...  2.15896219  0.31992783
+  -0.87339097]
+ [-0.47411601 -1.36930639 -0.21207253 ... -1.03321762 -0.74821832
+  -0.87339097]]
+2022-11-22 18:26:45.454 | INFO     | ml_project.classes.Train:__init__:69 - Обучили модель
+2022-11-22 18:26:45.455 | INFO     | ml_project.classes.Train:__init__:71 - Сделали пайплайн
+2022-11-22 18:26:45.457 | INFO     | ml_project.classes.Train:__init__:73 - Реальные метки :[1 0 0 0 0 1 1 0 1 1 0 0 0 0 1 0 1 0 0 0 1 1 0 1 0 0 1 1 0 0 0 1 0 1 1 0 0
+ 0 1 1 0 1 1 0 0 0 1 1 0 1 1 1 1 1 0 0 1 0 0 0 0 0 1 0 0 1 0 1 1 0 0 0 1 0
+ 0 1 0 1 1 0 0 1 1 1 0 1 0 0 0 0]
+2022-11-22 18:26:45.458 | INFO     | ml_project.classes.Train:__init__:74 - Предсказания :[1 0 0 1 0 0 1 0 1 1 0 0 0 1 1 0 1 1 0 0 1 1 0 0 0 0 1 1 0 0 0 1 0 1 1 0 1
+ 0 1 1 0 1 0 1 0 0 1 1 1 1 0 1 0 0 0 1 1 0 0 0 0 0 1 0 0 0 0 1 0 0 0 1 1 0
+ 0 0 0 1 1 1 0 1 0 1 0 0 0 0 0 0]
+2022-11-22 18:26:45.460 | INFO     | ml_project.classes.Train:__init__:76 - Метрики :{'Accuracy': 0.7777777777777778, 'Precision': 0.7567567567567568, 'Recall': 0.717948717948718, 'F1 Score': 0.736842105263158}
+2022-11-22 18:26:45.460 | INFO     | ml_project.classes.Exporting:__init__:25 - Записали метрики в файл  
+2022-11-22 18:26:45.461 | INFO     | ml_project.classes.Exporting:__init__:31 - Сериализовали модельку в банку 
+2022-11-22 18:26:45.461 | INFO     | ml_project.classes.Exporting:__init__:33 - Путь до модельки :models/DecisionTreeClassifier/model.pkl
+2022-11-22 18:26:55.092 | INFO     | __main__:train_pipeline_command:34 - Запустили код с параметрами: model_path :configs/models.yaml cfg_path:configs/CatBoostConfig.yaml name_of_model CatBoostClassifier 
+2022-11-22 18:26:55.106 | INFO     | ml_project.classes.Preprocess:__init__:38 - Данные из датасета    age  sex  cp  trestbps  chol  fbs  restecg  thalach  exang  oldpeak  slope  ca  thal  condition
+0   69    1   0       160   234    1        2      131      0      0.1      1   1     0          0
+1   69    0   0       140   239    0        0      151      0      1.8      0   2     0          0
+2   66    0   0       150   226    0        0      114      0      2.6      2   0     0          0
+3   65    1   0       138   282    1        2      174      0      1.4      1   1     0          1
+4   64    1   0       110   211    0        2      144      1      1.8      1   0     0          0
+2022-11-22 18:26:55.107 | INFO     | ml_project.classes.Preprocess:__init__:43 - целевая переменная [0 1]
+2022-11-22 18:26:55.108 | INFO     | ml_project.classes.Preprocess:__init__:46 - кол-во столбцов после дропа трейна :13
+2022-11-22 18:26:55.109 | INFO     | ml_project.classes.Preprocess:__init__:48 - кол-во столбцов после дропа теста :13
+2022-11-22 18:26:55.115 | INFO     | ml_project.classes.Transform:__init__:47 - Данные до преобразования      age  sex  cp  trestbps  chol  fbs  restecg  thalach  exang  oldpeak  slope  ca  thal
+43    54    1   1       108   309    0        0      156      0      0.0      0   0     2
+98    58    1   2       112   230    0        2      165      0      2.5      1   1     2
+255   52    1   3       128   255    0        0      161      1      0.0      0   1     2
+24    71    0   1       160   302    0        0      162      0      0.4      0   2     0
+220   58    1   3       150   270    0        2      111      1      0.8      0   0     2
+2022-11-22 18:26:55.121 | INFO     | ml_project.classes.Transform:__init__:50 - Данные после преобразования [[-0.03318211  0.69372185 -1.25573945 ... -0.9964785  -0.72415243
+   1.18191338]
+ [ 0.42271127  0.69372185 -0.21514417 ...  0.61008888  0.34849836
+   1.18191338]
+ [-0.2611288   0.69372185  0.8254511  ... -0.9964785   0.34849836
+   1.18191338]
+ ...
+ [-0.71702218  0.69372185 -0.21514417 ... -0.9964785   1.42114914
+  -0.90848566]
+ [-0.03318211  0.69372185  0.8254511  ... -0.9964785  -0.72415243
+  -0.90848566]
+ [-1.74278228 -1.44149994 -0.21514417 ... -0.9964785  -0.72415243
+  -0.90848566]]
+2022-11-22 18:26:55.224 | INFO     | ml_project.classes.Train:__init__:69 - Обучили модель
+2022-11-22 18:26:55.225 | INFO     | ml_project.classes.Train:__init__:71 - Сделали пайплайн
+2022-11-22 18:26:55.228 | INFO     | ml_project.classes.Train:__init__:73 - Реальные метки :[0 1 0 0 1 0 1 1 1 1 0 0 1 0 0 1 1 1 0 0 0 1 0 1 0 1 0 0 1 0 0 0 0 1 1 1 1
+ 1 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 1 0 0 0 0]
+2022-11-22 18:26:55.228 | INFO     | ml_project.classes.Train:__init__:74 - Предсказания :[0 0 0 0 1 0 1 1 1 1 1 0 1 1 0 1 1 1 0 1 0 0 0 1 1 0 0 0 1 0 0 0 0 1 1 1 1
+ 0 0 0 0 0 0 0 0 0 1 0 0 1 0 1 0 0 0 1 0 0 0 1]
+2022-11-22 18:26:55.230 | INFO     | ml_project.classes.Train:__init__:76 - Метрики :{'Accuracy': 0.7833333333333333, 'Precision': 0.7083333333333334, 'Recall': 0.7391304347826086, 'F1 Score': 0.723404255319149}
+2022-11-22 18:26:55.231 | INFO     | ml_project.classes.Exporting:__init__:25 - Записали метрики в файл  
+2022-11-22 18:26:55.232 | INFO     | ml_project.classes.Exporting:__init__:31 - Сериализовали модельку в банку 
+2022-11-22 18:26:55.232 | INFO     | ml_project.classes.Exporting:__init__:33 - Путь до модельки :models/CatBoostClassifier/model.pkl
