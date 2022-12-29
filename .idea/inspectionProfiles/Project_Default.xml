@@ -4,7 +4,7 @@
     <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="ignoredPackages">
         <value>
-          <list size="190">
+          <list size="195">
             <item index="0" class="java.lang.String" itemvalue="pyyaml" />
             <item index="1" class="java.lang.String" itemvalue="pandas" />
             <item index="2" class="java.lang.String" itemvalue="boto3" />
@@ -195,6 +195,11 @@
             <item index="187" class="java.lang.String" itemvalue="ply" />
             <item index="188" class="java.lang.String" itemvalue="hydra" />
             <item index="189" class="java.lang.String" itemvalue="omegaconf" />
+            <item index="190" class="java.lang.String" itemvalue="catboost" />
+            <item index="191" class="java.lang.String" itemvalue="typing-inspect" />
+            <item index="192" class="java.lang.String" itemvalue="typing_extensions" />
+            <item index="193" class="java.lang.String" itemvalue="loguru" />
+            <item index="194" class="java.lang.String" itemvalue="mlflow" />
           </list>
         </value>
       </option>
