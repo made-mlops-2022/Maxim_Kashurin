@@ -1,0 +1,5 @@
+*.csv
+/tests
+__pycache__
+/logs
+README.md

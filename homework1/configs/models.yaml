@@ -1,2 +1,0 @@
-modelDTC: "DecisionTreeClassifier"
-modelCBC: "CatBoostClassifier"
